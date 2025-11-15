@@ -1,0 +1,10 @@
+[05-Jul-2025 08:59:34 America/Bogota] PHP Warning:  require_once(/home/saludmen/public_html/t_zone/dist/mails/Excepciones/../resset_pass/includes/config.php): Failed to open stream: No such file or directory in /home/saludmen/public_html/t_zone/dist/mails/Excepciones/recordatoriomail.php on line 2
+[05-Jul-2025 08:59:34 America/Bogota] PHP Fatal error:  Uncaught Error: Failed opening required '/home/saludmen/public_html/t_zone/dist/mails/Excepciones/../resset_pass/includes/config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/saludmen/public_html/t_zone/dist/mails/Excepciones/recordatoriomail.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/saludmen/public_html/t_zone/dist/mails/Excepciones/recordatoriomail.php on line 2
+[05-Jul-2025 09:00:15 America/Bogota] PHP Warning:  require_once(/../resset_pass/includes/config.php): Failed to open stream: No such file or directory in /home/saludmen/public_html/t_zone/dist/mails/Excepciones/recordatoriomail.php on line 2
+[05-Jul-2025 09:00:15 America/Bogota] PHP Fatal error:  Uncaught Error: Failed opening required '/../resset_pass/includes/config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/saludmen/public_html/t_zone/dist/mails/Excepciones/recordatoriomail.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/saludmen/public_html/t_zone/dist/mails/Excepciones/recordatoriomail.php on line 2

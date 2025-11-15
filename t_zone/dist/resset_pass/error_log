@@ -1,0 +1,4 @@
+[13-Oct-2025 11:25:16 America/Bogota] PHP Warning:  Undefined array key "cor_usu" in /home/saludmen/public_html/t_zone/dist/resset_pass/reset_pass.php on line 55
+[13-Oct-2025 11:25:16 America/Bogota] PHP Warning:  Undefined array key "pn_usu" in /home/saludmen/public_html/t_zone/dist/resset_pass/reset_pass.php on line 56
+[13-Oct-2025 11:25:16 America/Bogota] PHP Warning:  Undefined array key "pa_usu" in /home/saludmen/public_html/t_zone/dist/resset_pass/reset_pass.php on line 56
+[13-Oct-2025 11:25:16 America/Bogota] PHP Warning:  Undefined array key "id" in /home/saludmen/public_html/t_zone/dist/resset_pass/reset_pass.php on line 58

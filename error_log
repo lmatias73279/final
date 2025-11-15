@@ -1,0 +1,18 @@
+[19-Mar-2025 21:20:10 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/saludmen/public_html/conexionsm.php:7
+Stack trace:
+#0 /home/saludmen/public_html/conexionsm.php(7): mysqli->__construct()
+#1 /home/saludmen/public_html/nosotros.php(159): include('/home/saludmen/...')
+#2 {main}
+  thrown in /home/saludmen/public_html/conexionsm.php on line 7
+[21-Apr-2025 21:07:47 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/saludmen/public_html/conexionsm.php:7
+Stack trace:
+#0 /home/saludmen/public_html/conexionsm.php(7): mysqli->__construct()
+#1 /home/saludmen/public_html/nosotros.php(159): include('/home/saludmen/...')
+#2 {main}
+  thrown in /home/saludmen/public_html/conexionsm.php on line 7
+[21-Apr-2025 21:11:25 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/saludmen/public_html/conexionsm.php:7
+Stack trace:
+#0 /home/saludmen/public_html/conexionsm.php(7): mysqli->__construct()
+#1 /home/saludmen/public_html/nosotros.php(159): include('/home/saludmen/...')
+#2 {main}
+  thrown in /home/saludmen/public_html/conexionsm.php on line 7

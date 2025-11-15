@@ -1,0 +1,15 @@
+<form action="create_event.php" method="POST">
+    <label>Título:</label>
+    <input type="text" name="title" required><br>
+
+    <label>Fecha y Hora de Inicio:</label>
+    <input type="datetime-local" name="start" required><br>
+
+    <label>Fecha y Hora de Fin:</label>
+    <input type="datetime-local" name="end" required><br>
+
+    <label>Correo del Invitado:</label>
+    <input type="email" name="guest_email[]" multiple required>
+
+    <button type="submit">Crear Evento</button>
+</form>
