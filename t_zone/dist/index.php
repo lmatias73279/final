@@ -6,6 +6,16 @@ if (empty($_SESSION["id"])) {
 
 include "../../conexionsm.php";
 
+$id = $_SESSION["id"];
+
+// Incrementar visitas
+$sql = "UPDATE usuarios
+SET visit = COALESCE(visit, 0) + 1
+WHERE id = ?";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("i", $id);
+$stmt->execute();
+
 // Obtener el permiso del usuario desde la sesión
 $permisoUsuario = $_SESSION['permiso'];
 
